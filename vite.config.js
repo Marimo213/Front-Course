@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/vue-shop/',
+  base: '/Front-Course/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
